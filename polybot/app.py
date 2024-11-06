@@ -5,7 +5,6 @@ from bot import Bot
 from bot import QuoteBot
 from bot import ImageProcessingBot
 from polybot.bot import ImageProcessingBot
-
 app = flask.Flask(__name__)
 
 TELEGRAM_BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
